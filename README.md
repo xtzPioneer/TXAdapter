@@ -1,5 +1,5 @@
 # TXAdapter
-* iOS屏幕以及字体适配
+* iOS屏幕以及字体适配，支持iPhone8等机型适配。
 
 ### cocoapods集成
 * pod 'TXAdapter', '~> 0.0.1'
