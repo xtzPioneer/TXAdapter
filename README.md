@@ -1,8 +1,8 @@
 # TXAdapter
-iOS屏幕以及字体适配
+* iOS屏幕以及字体适配
 
 ### cocoapods集成
-- pod 'TXAdapter', '~> 0.0.1'
+* pod 'TXAdapter', '~> 0.0.1'
 ### 代码片段
 
 ```objc
@@ -26,7 +26,7 @@ static inline CGFloat tRealLength(CGFloat defaultLength) {
 
 ```
 ### 使用方法
-- 导入头文件 <TXAdapter.h>  直接使用tRealLength()、tRealFontSize()...即可
+* 导入头文件 <TXAdapter.h>  直接使用tRealLength()、tRealFontSize()...即可
 ```objc
 UIView * view=[[UIView alloc]initWithFrame:CGRectMake(0, 0, tRealLength(50), tRealLength(50))];
 ```
