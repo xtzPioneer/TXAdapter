@@ -23,3 +23,4 @@ static inline CGFloat tRealLength(CGFloat defaultLength) {
 
 ```
 ### 使用方法
+- 导入头文件 "ZYAdaptation.h"  直接使用zy_CGRectMake、zy_CGSizeMake、zy_CGPointMake...即可
