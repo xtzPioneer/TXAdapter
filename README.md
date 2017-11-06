@@ -23,4 +23,7 @@ static inline CGFloat tRealLength(CGFloat defaultLength) {
 
 ```
 ### 使用方法
-- 导入头文件 "ZYAdaptation.h"  直接使用zy_CGRectMake、zy_CGSizeMake、zy_CGPointMake...即可
+- 导入头文件 "ZYAdaptation.h"  直接使用tRealLength()、zy_CGSizeMake、zy_CGPointMake...即可
+```objc
+UIView * view=[[UIView alloc]initWithFrame:CGRectMake(0, 0, tRealLength(50), tRealLength(50))];
+```
