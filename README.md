@@ -1,5 +1,8 @@
 # TXAdapter
-  iOS屏幕以及字体适配
+iOS屏幕以及字体适配
+
+### cocoapods集成
+  
 ### 代码片段
 
 ```objc
