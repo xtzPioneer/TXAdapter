@@ -2,7 +2,7 @@
 iOS屏幕以及字体适配
 
 ### cocoapods集成
-  
+pod 'TXAdapter', '~> 0.0.1'
 ### 代码片段
 
 ```objc
