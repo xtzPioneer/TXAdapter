@@ -3,23 +3,22 @@
 ### Content
 
 ```objc
-@interface ZYAdaptation : NSObject
+/*
+ 注：屏幕及字体是以屏幕宽度来适配的
+ */
 
-CGRect AutoRect(CGFloat x,CGFloat y,CGFloat width,CGFloat height);
-CGPoint AutoPoint(CGFloat x,CGFloat y);
-CGSize AutoSize(CGFloat width,CGFloat height);
+/*真实字体大小*/
+static inline CGFloat tRealFontSize(CGFloat defaultSize) {
+    if ([TXAdapter shareAdapter].defaultType == tCurrentType())
+        return defaultSize;
+    return tScreenWidth() / [TXAdapter shareAdapter].defaultScreenWidth * defaultSize;
+}
 
-CGFloat AutoX(CGFloat x);
-CGFloat AutoY(CGFloat y);
-CGFloat AutoW(CGFloat width);
-CGFloat AutoH(CGFloat height);
-
-CGFloat AutoFont(CGFloat size);
-CGFloat AutoFontSpecial(CGFloat size);
-CGFloat AutoFontMultiplied(CGFloat size);
-
-CGFloat AutoMultiplied(CGFloat number);
-
-@end
+/*真实长度*/
+static inline CGFloat tRealLength(CGFloat defaultLength) {
+    if ([TXAdapter shareAdapter].defaultType == tCurrentType())
+        return defaultLength;
+    return tScreenWidth()/[TXAdapter shareAdapter].defaultScreenWidth * defaultLength;
+}
 
 ```
