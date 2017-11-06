@@ -1,6 +1,6 @@
 # TXAdapter
-* iOS屏幕以及字体适配
-### Content
+  iOS屏幕以及字体适配
+### 代码片段
 
 ```objc
 /*
@@ -22,3 +22,4 @@ static inline CGFloat tRealLength(CGFloat defaultLength) {
 }
 
 ```
+### 使用方法
