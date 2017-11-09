@@ -28,5 +28,14 @@ static inline CGFloat tRealLength(CGFloat defaultLength) {
 ### 使用方法
 * 导入头文件 <TXAdapter.h>  直接使用tRealLength()、tRealFontSize()...即可
 ```objc
+//设置参照设配参照
+[TXAdapter shareAdapter].defaultType=TXAdapterPhoneType_iPhone6_6S_7_8;
+
 UIView * view=[[UIView alloc]initWithFrame:CGRectMake(0, 0, tRealLength(50), tRealLength(50))];
+
+UILabel * label=[[UILabel alloc]initWithFrame:CGRectMake(0, 80, tRealLength(100), tRealLength(20))];
+label.text=@"测试字体适配";
+label.textColor=[UIColor blackColor];
+label.font=[UIFont systemFontOfSize:tRealFontSize(15)];
+
 ```
