@@ -2,7 +2,7 @@
 * iOS轻量级屏幕以及字体适配，支持iPhoneX、XS、XSMax、XR等机型适配。
 * 使用方便、操作简单、集成快捷等优点
 ### cocoapods集成
-* pod 'TXAdapter', '~> 0.0.1'
+* pod 'TXAdapter', '~> 0.0.2'
 ### 代码片段
 
 ```objc
