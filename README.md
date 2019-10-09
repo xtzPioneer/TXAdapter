@@ -21,10 +21,11 @@ it, simply add the following line to your Podfile:
 pod 'TXAdapter'
 ```
 ## 使用姿势
-#### 引入头文件
+#### 导入头文件
 ```objc
 #import "TXAdapter.h"
 ```
+#### 代码事例
 ```objc
 - (void)viewDidLoad{
     [super viewDidLoad];
