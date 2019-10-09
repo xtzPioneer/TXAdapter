@@ -1,0 +1,13 @@
+use_frameworks!
+
+platform :ios, '8.0'
+
+target 'TXAdapter_Example' do
+  pod 'TXAdapter', :path => '../'
+
+  target 'TXAdapter_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end

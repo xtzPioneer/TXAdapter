@@ -1,0 +1,16 @@
+PODS:
+  - TXAdapter (0.1.0)
+
+DEPENDENCIES:
+  - TXAdapter (from `../`)
+
+EXTERNAL SOURCES:
+  TXAdapter:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  TXAdapter: 166aac904f8614b8a3c638d815565f1a9fbb764b
+
+PODFILE CHECKSUM: cc84e575f9ca813cb2166b32dcf63159459e03b3
+
+COCOAPODS: 1.8.3

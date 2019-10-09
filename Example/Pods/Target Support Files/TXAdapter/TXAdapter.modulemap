@@ -1,0 +1,6 @@
+framework module TXAdapter {
+  umbrella header "TXAdapter-umbrella.h"
+
+  export *
+  module * { export * }
+}
