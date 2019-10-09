@@ -21,6 +21,7 @@ it, simply add the following line to your Podfile:
 pod 'TXAdapter'
 ```
 ## 使用姿势
+```objc
 - (void)viewDidLoad{
     [super viewDidLoad];
     UIView * view = [[UIView alloc]initWithFrame:CGRectMake(0, tRealLength(80), tRealLength(50), tRealLength(50))];
