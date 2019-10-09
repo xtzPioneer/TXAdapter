@@ -5,13 +5,14 @@
 [![License](https://img.shields.io/cocoapods/l/TXAdapter.svg?style=flat)](https://cocoapods.org/pods/TXAdapter)
 [![Platform](https://img.shields.io/cocoapods/p/TXAdapter.svg?style=flat)](https://cocoapods.org/pods/TXAdapter)
 
-## Example
+## 介绍
 
-To run the example project, clone the repo, and run `pod install` from the Example directory first.
+* iOS轻量级屏幕以及字体适配，支持iPhoneX、XS、XSMax、XR等机型适配。
+* 使用方便、操作简单、集成快捷等优点
 
-## Requirements
-
-## Installation
+## 要求
+* 需要在iOS8以上使用
+## 安装
 
 TXAdapter is available through [CocoaPods](https://cocoapods.org). To install
 it, simply add the following line to your Podfile:
@@ -20,10 +21,10 @@ it, simply add the following line to your Podfile:
 pod 'TXAdapter'
 ```
 
-## Author
+## 作者
 
 张雄, xtz_pioneer@163.com
 
-## License
+## 许可
 
 TXAdapter is available under the MIT license. See the LICENSE file for more info.
