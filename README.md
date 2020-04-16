@@ -7,7 +7,7 @@
 
 ## 介绍
 
-* iOS轻量级屏幕以及字体适配，支持iPhoneX、XS、XSMax、XR、11等机型适配。
+* iOS轻量级屏幕以及字体适配，支持iPhoneX、XS、XSMax、XR、11、SE等机型适配。
 * 使用方便、操作简单、集成快捷等优点
 
 ## 要求
@@ -42,8 +42,8 @@ pod 'TXAdapter'
         case TXAdapterPhoneType_iPhone5_5C_5S_5SE:
             NSLog(@"TXAdapterPhoneType_iPhone5_5C_5S_5SE");
             break;
-        case TXAdapterPhoneType_iPhone6_6S_7_8:
-            NSLog(@"TXAdapterPhoneType_iPhone6_6S_7_8");
+        case TXAdapterPhoneType_iPhone6_6S_7_8_SE:
+            NSLog(@"TXAdapterPhoneType_iPhone6_6S_7_8_SE");
             break;
         case TXAdapterPhoneType_iPhone6Plus_6SPlus_7Plus_8Plus:
             NSLog(@"TXAdapterPhoneType_iPhone6Plus_6SPlus_7Plus_8Plus");
@@ -65,7 +65,7 @@ pod 'TXAdapter'
 
 ## 作者
 
-张雄, xtz_pioneer@163.com
+张雄, xtz_pioneer@icloud.com
 
 ## 许可
 

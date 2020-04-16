@@ -8,13 +8,13 @@
 
 /* Begin PBXBuildFile section */
 		440ACFA14E717D04BE48DBF7E1CA6DBD /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
-		55696C2C03138E2DA87C27589487D4AE /* TXAdapter-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = A8B13C7F6CA3DECEC1674169A0D4DC0C /* TXAdapter-dummy.m */; };
-		745E3A31028AC5DEA5E3AB8AD63E5608 /* TXAdapter-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = D669F25AE1BAD00A9A3EE73F9073D7D3 /* TXAdapter-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		55696C2C03138E2DA87C27589487D4AE /* TXAdapter-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = FE58C196881278B3F9916671968861CD /* TXAdapter-dummy.m */; };
+		745E3A31028AC5DEA5E3AB8AD63E5608 /* TXAdapter-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = CBF31A09F86F1EBE83EEF439016E9981 /* TXAdapter-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		804EABF6F52EF7610C6FBD7D8CF67DAB /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
 		9FA92C9AE4F017B7ADDC561C5595632C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
 		B7F1F37E2611BB81EBC5048CE22E77E2 /* Pods-TXAdapter_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B7D91FEA69357AFA5EB43E0A4D0691A /* Pods-TXAdapter_Example-dummy.m */; };
-		BDFFE7533D3CF45E477D850BC20B6738 /* TXAdapter.h in Headers */ = {isa = PBXBuildFile; fileRef = 3D9ABD1178769B6756F9FBEC60F9D466 /* TXAdapter.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		BEA6062EE645D5C423E6F31656F37C32 /* TXAdapter.m in Sources */ = {isa = PBXBuildFile; fileRef = 872B17C9D60AADC93BC73E74BD0685A5 /* TXAdapter.m */; };
+		BDFFE7533D3CF45E477D850BC20B6738 /* TXAdapter.h in Headers */ = {isa = PBXBuildFile; fileRef = 2F5FF1378BCDB1A2B16A9C966AE20223 /* TXAdapter.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		BEA6062EE645D5C423E6F31656F37C32 /* TXAdapter.m in Sources */ = {isa = PBXBuildFile; fileRef = 670F1AFA0DE0732A2A08BB33BA99EAA6 /* TXAdapter.m */; };
 		F00B89BE42B97C266872CEAFD126E3F2 /* Pods-TXAdapter_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = E18B5D5CF037CD79FA37CEC366DE4B46 /* Pods-TXAdapter_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		F2F6A03C50B2A3DC43AA2962233A127B /* Pods-TXAdapter_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = FADF495026F9C339D3414D7AEE4F9455 /* Pods-TXAdapter_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		F8AA1CC5E64B776ABD74F9BF057D8CAA /* Pods-TXAdapter_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 82372D99F8A4FF17B5FF0DCE5280941B /* Pods-TXAdapter_Tests-dummy.m */; };
@@ -39,38 +39,39 @@
 
 /* Begin PBXFileReference section */
 		0A470FC4416269CAA42D1E7A6FF25364 /* Pods-TXAdapter_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-TXAdapter_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
-		0C9A74A2EFE30413BD388D2A9B7922CB /* TXAdapter.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = TXAdapter.xcconfig; sourceTree = "<group>"; };
+		1243A20D2E1BB97AA00CABEA59765110 /* TXAdapter-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "TXAdapter-prefix.pch"; sourceTree = "<group>"; };
 		1DEACCE47B840C5B292EB27226DA12E8 /* Pods-TXAdapter_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-TXAdapter_Tests-Info.plist"; sourceTree = "<group>"; };
+		2F5FF1378BCDB1A2B16A9C966AE20223 /* TXAdapter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TXAdapter.h; path = TXAdapter/Classes/TXAdapter.h; sourceTree = "<group>"; };
+		31B6AB09784FA1420E4DE8D9AE5CDC00 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
 		3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		33FA79AFE64830051002BDF677EA43AE /* TXAdapter.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = TXAdapter.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		3B4AE733382DF6F3D47E6DA7E996E4CF /* Pods-TXAdapter_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-TXAdapter_Example-frameworks.sh"; sourceTree = "<group>"; };
-		3D9ABD1178769B6756F9FBEC60F9D466 /* TXAdapter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TXAdapter.h; path = TXAdapter/Classes/TXAdapter.h; sourceTree = "<group>"; };
 		4031171AC29CA51FB61E0D767DE905DA /* Pods-TXAdapter_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-TXAdapter_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
-		4D95E1F91227FE9DE527E9EF52A97795 /* TXAdapter-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "TXAdapter-prefix.pch"; sourceTree = "<group>"; };
 		4EF69B918FEA69C7DC7B20CFA2F2A0BC /* Pods-TXAdapter_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-TXAdapter_Example-Info.plist"; sourceTree = "<group>"; };
 		5E834990B68996D6EC9705E76BF98DE5 /* Pods-TXAdapter_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-TXAdapter_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
-		6D42562127156668BC1F6F5D08F136E3 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		62B2EDA5A06EECB0756926B7CC31B5F5 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		670F1AFA0DE0732A2A08BB33BA99EAA6 /* TXAdapter.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = TXAdapter.m; path = TXAdapter/Classes/TXAdapter.m; sourceTree = "<group>"; };
+		69D340600F158FAD7282C2EC3D03CD11 /* TXAdapter.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = TXAdapter.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		7832511EC81BDB56046A602F3464EB91 /* Pods-TXAdapter_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-TXAdapter_Example-acknowledgements.plist"; sourceTree = "<group>"; };
 		82372D99F8A4FF17B5FF0DCE5280941B /* Pods-TXAdapter_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-TXAdapter_Tests-dummy.m"; sourceTree = "<group>"; };
-		872B17C9D60AADC93BC73E74BD0685A5 /* TXAdapter.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = TXAdapter.m; path = TXAdapter/Classes/TXAdapter.m; sourceTree = "<group>"; };
 		891DDCBC32830577C7F1294A90E95013 /* Pods-TXAdapter_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-TXAdapter_Tests.modulemap"; sourceTree = "<group>"; };
 		98AF32180EFC6365AF4E1C37BA025742 /* TXAdapter.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = TXAdapter.framework; path = TXAdapter.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		9B7D91FEA69357AFA5EB43E0A4D0691A /* Pods-TXAdapter_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-TXAdapter_Example-dummy.m"; sourceTree = "<group>"; };
 		9C3C19307BE354C554959D85869BBD76 /* Pods-TXAdapter_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TXAdapter_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		9D4D2E8C13173768AE5645820812B88D /* Pods-TXAdapter_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TXAdapter_Example.release.xcconfig"; sourceTree = "<group>"; };
 		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		A1EFE1677F0BEDE3C22C4CB40215A149 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
-		A8B13C7F6CA3DECEC1674169A0D4DC0C /* TXAdapter-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "TXAdapter-dummy.m"; sourceTree = "<group>"; };
-		B04352CD376E6CE8D7B87CDC6F5AB122 /* TXAdapter.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = TXAdapter.modulemap; sourceTree = "<group>"; };
+		A5FD5BB1C4AF0364CA2168AFE9296809 /* TXAdapter.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = TXAdapter.release.xcconfig; sourceTree = "<group>"; };
 		B4968E2CAC6C0B3012D76CDA4DB63FEB /* Pods-TXAdapter_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-TXAdapter_Example.modulemap"; sourceTree = "<group>"; };
+		C8D43DF5726AF2330046B2F83852E323 /* TXAdapter.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = TXAdapter.modulemap; sourceTree = "<group>"; };
+		CBF31A09F86F1EBE83EEF439016E9981 /* TXAdapter-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "TXAdapter-umbrella.h"; sourceTree = "<group>"; };
 		D4F756D4320DD1D377BB3B7757BD9154 /* Pods_TXAdapter_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_TXAdapter_Example.framework; path = "Pods-TXAdapter_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D5EE460AA2C51315967935285241AD65 /* Pods-TXAdapter_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TXAdapter_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		D669F25AE1BAD00A9A3EE73F9073D7D3 /* TXAdapter-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "TXAdapter-umbrella.h"; sourceTree = "<group>"; };
 		D6BF6343FF9F1C9F729132A7F5B483CC /* Pods-TXAdapter_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TXAdapter_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		DFF336A708364D516382DE877354F1DB /* TXAdapter-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "TXAdapter-Info.plist"; sourceTree = "<group>"; };
+		D9505659FC844D7C25A0B875147A8750 /* TXAdapter-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "TXAdapter-Info.plist"; sourceTree = "<group>"; };
+		E14EBA1AB3D69AFE7C323ED62EFC8E3A /* TXAdapter.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = TXAdapter.debug.xcconfig; sourceTree = "<group>"; };
 		E18B5D5CF037CD79FA37CEC366DE4B46 /* Pods-TXAdapter_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-TXAdapter_Tests-umbrella.h"; sourceTree = "<group>"; };
 		E96DD4CC8EB06D1B6993A5B4E5688902 /* Pods_TXAdapter_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_TXAdapter_Tests.framework; path = "Pods-TXAdapter_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		FADF495026F9C339D3414D7AEE4F9455 /* Pods-TXAdapter_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-TXAdapter_Example-umbrella.h"; sourceTree = "<group>"; };
+		FE58C196881278B3F9916671968861CD /* TXAdapter-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "TXAdapter-dummy.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +102,18 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		4D90E965A4DC8C9ED5F3EB0A7FF39C15 /* TXAdapter */ = {
+			isa = PBXGroup;
+			children = (
+				2F5FF1378BCDB1A2B16A9C966AE20223 /* TXAdapter.h */,
+				670F1AFA0DE0732A2A08BB33BA99EAA6 /* TXAdapter.m */,
+				9A67BF2E0A8BA7B914F7549CA22B656D /* Pod */,
+				D5838538CA0D387516CAE5ACF1BD5845 /* Support Files */,
+			);
+			name = TXAdapter;
+			path = ../..;
+			sourceTree = "<group>";
+		};
 		6071AEDD6D5E1B23CE89A9B727F8E353 /* Pods-TXAdapter_Example */ = {
 			isa = PBXGroup;
 			children = (
@@ -131,7 +144,7 @@
 		88B792ACC85EC5AADC61A1321A98682B /* Development Pods */ = {
 			isa = PBXGroup;
 			children = (
-				B8D3FC7B276DB45BC5708DD6505FC290 /* TXAdapter */,
+				4D90E965A4DC8C9ED5F3EB0A7FF39C15 /* TXAdapter */,
 			);
 			name = "Development Pods";
 			sourceTree = "<group>";
@@ -152,30 +165,14 @@
 			path = "Target Support Files/Pods-TXAdapter_Tests";
 			sourceTree = "<group>";
 		};
-		A8D5ADC211A03CC4621DB1716AB63987 /* Support Files */ = {
+		9A67BF2E0A8BA7B914F7549CA22B656D /* Pod */ = {
 			isa = PBXGroup;
 			children = (
-				B04352CD376E6CE8D7B87CDC6F5AB122 /* TXAdapter.modulemap */,
-				0C9A74A2EFE30413BD388D2A9B7922CB /* TXAdapter.xcconfig */,
-				A8B13C7F6CA3DECEC1674169A0D4DC0C /* TXAdapter-dummy.m */,
-				DFF336A708364D516382DE877354F1DB /* TXAdapter-Info.plist */,
-				4D95E1F91227FE9DE527E9EF52A97795 /* TXAdapter-prefix.pch */,
-				D669F25AE1BAD00A9A3EE73F9073D7D3 /* TXAdapter-umbrella.h */,
+				62B2EDA5A06EECB0756926B7CC31B5F5 /* LICENSE */,
+				31B6AB09784FA1420E4DE8D9AE5CDC00 /* README.md */,
+				69D340600F158FAD7282C2EC3D03CD11 /* TXAdapter.podspec */,
 			);
-			name = "Support Files";
-			path = "Example/Pods/Target Support Files/TXAdapter";
-			sourceTree = "<group>";
-		};
-		B8D3FC7B276DB45BC5708DD6505FC290 /* TXAdapter */ = {
-			isa = PBXGroup;
-			children = (
-				3D9ABD1178769B6756F9FBEC60F9D466 /* TXAdapter.h */,
-				872B17C9D60AADC93BC73E74BD0685A5 /* TXAdapter.m */,
-				D022EE3F093810C8B96E762974BDA3D8 /* Pod */,
-				A8D5ADC211A03CC4621DB1716AB63987 /* Support Files */,
-			);
-			name = TXAdapter;
-			path = ../..;
+			name = Pod;
 			sourceTree = "<group>";
 		};
 		C0834CEBB1379A84116EF29F93051C60 /* iOS */ = {
@@ -197,22 +194,27 @@
 			);
 			sourceTree = "<group>";
 		};
-		D022EE3F093810C8B96E762974BDA3D8 /* Pod */ = {
-			isa = PBXGroup;
-			children = (
-				6D42562127156668BC1F6F5D08F136E3 /* LICENSE */,
-				A1EFE1677F0BEDE3C22C4CB40215A149 /* README.md */,
-				33FA79AFE64830051002BDF677EA43AE /* TXAdapter.podspec */,
-			);
-			name = Pod;
-			sourceTree = "<group>";
-		};
 		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
 				C0834CEBB1379A84116EF29F93051C60 /* iOS */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D5838538CA0D387516CAE5ACF1BD5845 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				C8D43DF5726AF2330046B2F83852E323 /* TXAdapter.modulemap */,
+				FE58C196881278B3F9916671968861CD /* TXAdapter-dummy.m */,
+				D9505659FC844D7C25A0B875147A8750 /* TXAdapter-Info.plist */,
+				1243A20D2E1BB97AA00CABEA59765110 /* TXAdapter-prefix.pch */,
+				CBF31A09F86F1EBE83EEF439016E9981 /* TXAdapter-umbrella.h */,
+				E14EBA1AB3D69AFE7C323ED62EFC8E3A /* TXAdapter.debug.xcconfig */,
+				A5FD5BB1C4AF0364CA2168AFE9296809 /* TXAdapter.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/TXAdapter";
 			sourceTree = "<group>";
 		};
 		E366564A46B67F3351FFAF7A3C999EA3 /* Targets Support Files */ = {
@@ -326,6 +328,7 @@
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
+				Base,
 			);
 			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
 			productRefGroup = 7E93B8F072DC92C8BDC3AE601D1D64E8 /* Products */;
@@ -407,37 +410,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		0D5735D19D146938664312340D2D1140 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 0C9A74A2EFE30413BD388D2A9B7922CB /* TXAdapter.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/TXAdapter/TXAdapter-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/TXAdapter/TXAdapter-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/TXAdapter/TXAdapter.modulemap";
-				PRODUCT_MODULE_NAME = TXAdapter;
-				PRODUCT_NAME = TXAdapter;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
 		32F303BA69570C41E30DFD1D25B17459 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 9C3C19307BE354C554959D85869BBD76 /* Pods-TXAdapter_Example.debug.xcconfig */;
@@ -470,38 +442,6 @@
 				VERSION_INFO_PREFIX = "";
 			};
 			name = Debug;
-		};
-		3532680BC00110ADE6E5D156A98D504B /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 0C9A74A2EFE30413BD388D2A9B7922CB /* TXAdapter.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/TXAdapter/TXAdapter-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/TXAdapter/TXAdapter-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/TXAdapter/TXAdapter.modulemap";
-				PRODUCT_MODULE_NAME = TXAdapter;
-				PRODUCT_NAME = TXAdapter;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
 		};
 		49123AFF3AD99AEB091921242363FDC3 /* Release */ = {
 			isa = XCBuildConfiguration;
@@ -728,6 +668,69 @@
 			};
 			name = Debug;
 		};
+		CACA9D0B2BF2E0E63D4675C427B59398 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A5FD5BB1C4AF0364CA2168AFE9296809 /* TXAdapter.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/TXAdapter/TXAdapter-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/TXAdapter/TXAdapter-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/TXAdapter/TXAdapter.modulemap";
+				PRODUCT_MODULE_NAME = TXAdapter;
+				PRODUCT_NAME = TXAdapter;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		FFE17C3D478B7761EBD634BE734C9F09 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E14EBA1AB3D69AFE7C323ED62EFC8E3A /* TXAdapter.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/TXAdapter/TXAdapter-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/TXAdapter/TXAdapter-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/TXAdapter/TXAdapter.modulemap";
+				PRODUCT_MODULE_NAME = TXAdapter;
+				PRODUCT_NAME = TXAdapter;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -752,8 +755,8 @@
 		9CFAE6DB77BC3349E42A934C8460E392 /* Build configuration list for PBXNativeTarget "TXAdapter" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				0D5735D19D146938664312340D2D1140 /* Debug */,
-				3532680BC00110ADE6E5D156A98D504B /* Release */,
+				FFE17C3D478B7761EBD634BE734C9F09 /* Debug */,
+				CACA9D0B2BF2E0E63D4675C427B59398 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

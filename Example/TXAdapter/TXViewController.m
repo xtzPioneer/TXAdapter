@@ -31,8 +31,8 @@
         case TXAdapterPhoneType_iPhone5_5C_5S_5SE:
             NSLog(@"TXAdapterPhoneType_iPhone5_5C_5S_5SE");
             break;
-        case TXAdapterPhoneType_iPhone6_6S_7_8:
-            NSLog(@"TXAdapterPhoneType_iPhone6_6S_7_8");
+        case TXAdapterPhoneType_iPhone6_6S_7_8_SE:
+            NSLog(@"TXAdapterPhoneType_iPhone6_6S_7_8_SE");
             break;
         case TXAdapterPhoneType_iPhone6Plus_6SPlus_7Plus_8Plus:
             NSLog(@"TXAdapterPhoneType_iPhone6Plus_6SPlus_7Plus_8Plus");
