@@ -247,6 +247,9 @@
 				LastUpgradeCheck = 0720;
 				ORGANIZATIONNAME = "张雄";
 				TargetAttributes = {
+					6003F589195388D20070C39A = {
+						DevelopmentTeam = YSMJ24QAA8;
+					};
 					6003F5AD195388D20070C39A = {
 						TestTargetID = 6003F589195388D20070C39A;
 					};
@@ -494,6 +497,7 @@
 			baseConfigurationReference = E0E2E4925DA20C8663A9A9D0 /* Pods-TXAdapter_Example.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = YSMJ24QAA8;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "TXAdapter/TXAdapter-Prefix.pch";
 				INFOPLIST_FILE = "TXAdapter/TXAdapter-Info.plist";
@@ -510,6 +514,7 @@
 			baseConfigurationReference = 6F505E6E1EAE683A1EE7286B /* Pods-TXAdapter_Example.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = YSMJ24QAA8;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "TXAdapter/TXAdapter-Prefix.pch";
 				INFOPLIST_FILE = "TXAdapter/TXAdapter-Info.plist";

@@ -1,5 +1,5 @@
 PODS:
-  - TXAdapter (0.1.1)
+  - TXAdapter (0.1.2)
 
 DEPENDENCIES:
   - TXAdapter (from `../`)
@@ -9,8 +9,8 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  TXAdapter: a8ed5adc4abecf8647fe60b92ca2709264350edc
+  TXAdapter: 9efbb162382971fbede47128267ffba2439350fd
 
 PODFILE CHECKSUM: cc84e575f9ca813cb2166b32dcf63159459e03b3
 
-COCOAPODS: 1.9.1
+COCOAPODS: 1.9.3

@@ -7,7 +7,7 @@
 
 ## 介绍
 
-* iOS轻量级屏幕以及字体适配，支持iPhoneX、XS、XSMax、XR、11、SE等机型适配。
+* iOS轻量级屏幕以及字体适配，支持iPhoneX、XS、XSMax、XR、11、SE、12mini、12、12Pro、12ProMax等机型适配。
 * 使用方便、操作简单、集成快捷等优点
 
 ## 要求
@@ -27,7 +27,8 @@ pod 'TXAdapter'
 ```
 #### 代码事例
 ```objc
-- (void)viewDidLoad{
+- (void)viewDidLoad
+{
     [super viewDidLoad];
     UIView * view = [[UIView alloc]initWithFrame:CGRectMake(0, tRealLength(80), tRealLength(50), tRealLength(50))];
     view.backgroundColor = [UIColor redColor];
@@ -48,18 +49,25 @@ pod 'TXAdapter'
         case TXAdapterPhoneType_iPhone6Plus_6SPlus_7Plus_8Plus:
             NSLog(@"TXAdapterPhoneType_iPhone6Plus_6SPlus_7Plus_8Plus");
             break;
-        case TXAdapterPhoneType_iPhoneX_XS_11Pro:
-            NSLog(@"TXAdapterPhoneType_iPhoneX_XS_11Pro");
+        case TXAdapterPhoneType_iPhoneX_XS_11Pro_12mini:
+            NSLog(@"TXAdapterPhoneType_iPhoneX_XS_11Pro_12mini");
             break;
         case TXAdapterPhoneType_iPhoneXSMax_XR_11_11ProMax:
             NSLog(@"TXAdapterPhoneType_iPhoneXSMax_XR_11_11ProMax");
             break;
+        case TXAdapterPhoneType_iPhone12_12Pro:
+            NSLog(@"TXAdapterPhoneType_iPhone12_12Pro");
+            break;
+        case TXAdapterPhoneType_iPhone12ProMax:
+            NSLog(@"TXAdapterPhoneType_iPhone12ProMax");
+            break;
         case TXAdapterPhoneTypeOther:
+            NSLog(@"Other");
             break;
         default:
             break;
     }
-	// Do any additional setup after loading the view, typically from a nib.
+    // Do any additional setup after loading the view, typically from a nib.
 }
 ```
 

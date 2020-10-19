@@ -37,13 +37,20 @@
         case TXAdapterPhoneType_iPhone6Plus_6SPlus_7Plus_8Plus:
             NSLog(@"TXAdapterPhoneType_iPhone6Plus_6SPlus_7Plus_8Plus");
             break;
-        case TXAdapterPhoneType_iPhoneX_XS_11Pro:
-            NSLog(@"TXAdapterPhoneType_iPhoneX_XS_11Pro");
+        case TXAdapterPhoneType_iPhoneX_XS_11Pro_12mini:
+            NSLog(@"TXAdapterPhoneType_iPhoneX_XS_11Pro_12mini");
             break;
         case TXAdapterPhoneType_iPhoneXSMax_XR_11_11ProMax:
             NSLog(@"TXAdapterPhoneType_iPhoneXSMax_XR_11_11ProMax");
             break;
+        case TXAdapterPhoneType_iPhone12_12Pro:
+            NSLog(@"TXAdapterPhoneType_iPhone12_12Pro");
+            break;
+        case TXAdapterPhoneType_iPhone12ProMax:
+            NSLog(@"TXAdapterPhoneType_iPhone12ProMax");
+            break;
         case TXAdapterPhoneTypeOther:
+            NSLog(@"Other");
             break;
         default:
             break;
