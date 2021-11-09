@@ -16,17 +16,17 @@ typedef NS_ENUM(NSInteger,TXAdapterPhoneType) {
     /** iPhone5_5C_5S_5SE */
     TXAdapterPhoneType_iPhone5_5C_5S_5SE = 1,
     /** iPhone6_6S_7_8 */
-    TXAdapterPhoneType_iPhone6_6S_7_8_SE = 2,
+    TXAdapterPhoneType_iPhone6_6S_7_8_SE_SE2 = 2,
     /** iPhone6Plus_6SPlus_7Plus_8Plus */
     TXAdapterPhoneType_iPhone6Plus_6SPlus_7Plus_8Plus = 3,
     /** iPhoneX_XS_11Pro_12mini */
-    TXAdapterPhoneType_iPhoneX_XS_11Pro_12mini        = 4,
+    TXAdapterPhoneType_iPhoneX_XS_11Pro_12mini_13mini = 4,
     /** iPhoneXSMax_XR_11_11ProMax */
     TXAdapterPhoneType_iPhoneXSMax_XR_11_11ProMax     = 5,
     /** iPhone12_12Pro */
-    TXAdapterPhoneType_iPhone12_12Pro                 = 6,
+    TXAdapterPhoneType_iPhone12_12Pro_13_13Pro        = 6,
     /** iPhone12ProMax */
-    TXAdapterPhoneType_iPhone12ProMax                 = 7,
+    TXAdapterPhoneType_iPhone12ProMax_13ProMax        = 7,
     /** 其他 */
     TXAdapterPhoneTypeOther                           = 8,
 };
@@ -34,22 +34,22 @@ typedef NS_ENUM(NSInteger,TXAdapterPhoneType) {
 /** 所需适配机型-屏幕宽 */
 UIKIT_EXTERN CGFloat const SCREEN_WIDTH_iPhone3GS_4_4S;
 UIKIT_EXTERN CGFloat const SCREEN_WIDTH_iPhone5_5C_5S_5SE;
-UIKIT_EXTERN CGFloat const SCREEN_WIDTH_iPhone6_6S_7_8_SE;
+UIKIT_EXTERN CGFloat const SCREEN_WIDTH_iPhone6_6S_7_8_SE_SE2;
 UIKIT_EXTERN CGFloat const SCREEN_WIDTH_iPhone6Plus_6SPlus_7Plus_8Plus;
-UIKIT_EXTERN CGFloat const SCREEN_WIDTH_iPhoneX_XS_11Pro_12mini;
+UIKIT_EXTERN CGFloat const SCREEN_WIDTH_iPhoneX_XS_11Pro_12mini_13mini;
 UIKIT_EXTERN CGFloat const SCREEN_WIDTH_iPhoneXSMax_XR_11_11ProMax;
-UIKIT_EXTERN CGFloat const SCREEN_WIDTH_iPhone12_12Pro;
-UIKIT_EXTERN CGFloat const SCREEN_WIDTH_iPhone12ProMax;
+UIKIT_EXTERN CGFloat const SCREEN_WIDTH_iPhone12_12Pro_13_13Pro;
+UIKIT_EXTERN CGFloat const SCREEN_WIDTH_iPhone12ProMax_13ProMax;
 
 /** 所需适配机型-屏幕高 */
 UIKIT_EXTERN CGFloat const SCREEN_HEIGHT_iPhone3GS_4_4S;
 UIKIT_EXTERN CGFloat const SCREEN_HEIGHT_iPhone5_5C_5S_5SE;
-UIKIT_EXTERN CGFloat const SCREEN_HEIGHT_iPhone6_6S_7_8_SE;
+UIKIT_EXTERN CGFloat const SCREEN_HEIGHT_iPhone6_6S_7_8_SE_SE2;
 UIKIT_EXTERN CGFloat const SCREEN_HEIGHT_iPhone6Plus_6SPlus_7Plus_8Plus;
-UIKIT_EXTERN CGFloat const SCREEN_HEIGHT_iPhoneX_XS_11Pro_12mini;
+UIKIT_EXTERN CGFloat const SCREEN_HEIGHT_iPhoneX_XS_11Pro_12mini_13mini;
 UIKIT_EXTERN CGFloat const SCREEN_HEIGHT_iPhoneXSMax_XR_11_11ProMax;
-UIKIT_EXTERN CGFloat const SCREEN_HEIGHT_iPhone12_12Pro;
-UIKIT_EXTERN CGFloat const SCREEN_HEIGHT_iPhone12ProMax;
+UIKIT_EXTERN CGFloat const SCREEN_HEIGHT_iPhone12_12Pro_13_13Pro;
+UIKIT_EXTERN CGFloat const SCREEN_HEIGHT_iPhone12ProMax_13ProMax;
 
 /** 屏幕宽度 */
 static inline CGFloat tScreenWidth() {
@@ -65,12 +65,12 @@ static inline CGFloat tScreenHeight() {
 static inline TXAdapterPhoneType tCurrentType() {
     if (tScreenHeight() == SCREEN_HEIGHT_iPhone3GS_4_4S) return TXAdapterPhoneType_iPhone3GS_4_4S;
     if (tScreenHeight() == SCREEN_HEIGHT_iPhone5_5C_5S_5SE) return TXAdapterPhoneType_iPhone5_5C_5S_5SE;
-    if (tScreenHeight() == SCREEN_HEIGHT_iPhone6_6S_7_8_SE) return TXAdapterPhoneType_iPhone6_6S_7_8_SE;
+    if (tScreenHeight() == SCREEN_HEIGHT_iPhone6_6S_7_8_SE_SE2) return TXAdapterPhoneType_iPhone6_6S_7_8_SE_SE2;
     if (tScreenHeight() == SCREEN_HEIGHT_iPhone6Plus_6SPlus_7Plus_8Plus) return TXAdapterPhoneType_iPhone6Plus_6SPlus_7Plus_8Plus;
-    if (tScreenHeight() == SCREEN_HEIGHT_iPhoneX_XS_11Pro_12mini) return TXAdapterPhoneType_iPhoneX_XS_11Pro_12mini;
+    if (tScreenHeight() == SCREEN_HEIGHT_iPhoneX_XS_11Pro_12mini_13mini) return TXAdapterPhoneType_iPhoneX_XS_11Pro_12mini_13mini;
     if (tScreenHeight() == SCREEN_HEIGHT_iPhoneXSMax_XR_11_11ProMax) return TXAdapterPhoneType_iPhoneXSMax_XR_11_11ProMax;
-    if (tScreenHeight() == SCREEN_HEIGHT_iPhone12_12Pro) return TXAdapterPhoneType_iPhone12_12Pro;
-    if (tScreenHeight() == SCREEN_HEIGHT_iPhone12ProMax) return TXAdapterPhoneType_iPhone12ProMax;
+    if (tScreenHeight() == SCREEN_HEIGHT_iPhone12_12Pro_13_13Pro) return TXAdapterPhoneType_iPhone12_12Pro_13_13Pro;
+    if (tScreenHeight() == SCREEN_HEIGHT_iPhone12ProMax_13ProMax) return TXAdapterPhoneType_iPhone12ProMax_13ProMax;
     return TXAdapterPhoneTypeOther;
 }
 
