@@ -7,7 +7,7 @@
 
 ## 介绍
 
-* iOS轻量级屏幕以及字体适配，支持iPhoneX、XS、XSMax、XR、11、SE、12mini、12、12Pro、12ProMax、13、13Pro、13ProMax、13mini、SE2等机型适配。
+* iOS轻量级屏幕以及字体适配，支持iPhoneX、XS、XSMax、XR、11、SE、12mini、12、12Pro、12ProMax、13、13Pro、13ProMax、13mini、SE2、SE3、14、14Plus、14Pro、14ProMax等机型适配。
 * 使用方便、操作简单、集成快捷等优点
 
 ## 要求
@@ -30,6 +30,7 @@ pod 'TXAdapter'
 - (void)viewDidLoad
 {
     [super viewDidLoad];
+    
     UIView * view = [[UIView alloc]initWithFrame:CGRectMake(0, tRealLength(80), tRealLength(50), tRealLength(50))];
     view.backgroundColor = [UIColor redColor];
     [self.view addSubview:view];
@@ -43,8 +44,8 @@ pod 'TXAdapter'
         case TXAdapterPhoneType_iPhone5_5C_5S_5SE:
             NSLog(@"TXAdapterPhoneType_iPhone5_5C_5S_5SE");
             break;
-        case TXAdapterPhoneType_iPhone6_6S_7_8_SE_SE2:
-            NSLog(@"TXAdapterPhoneType_iPhone6_6S_7_8_SE_SE2");
+        case TXAdapterPhoneType_iPhone6_6S_7_8_SE_SE2_SE3:
+            NSLog(@"TXAdapterPhoneType_iPhone6_6S_7_8_SE_SE2_SE3");
             break;
         case TXAdapterPhoneType_iPhone6Plus_6SPlus_7Plus_8Plus:
             NSLog(@"TXAdapterPhoneType_iPhone6Plus_6SPlus_7Plus_8Plus");
@@ -55,11 +56,17 @@ pod 'TXAdapter'
         case TXAdapterPhoneType_iPhoneXSMax_XR_11_11ProMax:
             NSLog(@"TXAdapterPhoneType_iPhoneXSMax_XR_11_11ProMax");
             break;
-        case TXAdapterPhoneType_iPhone12_12Pro_13_13Pro:
-            NSLog(@"TXAdapterPhoneType_iPhone12_12Pro_13_13Pro");
+        case TXAdapterPhoneType_iPhone12_12Pro_13_13Pro_14:
+            NSLog(@"TXAdapterPhoneType_iPhone12_12Pro_13_13Pro_14");
             break;
-        case TXAdapterPhoneType_iPhone12ProMax_13ProMax:
-            NSLog(@"TXAdapterPhoneType_iPhone12ProMax_13ProMax");
+        case TXAdapterPhoneType_iPhone12ProMax_13ProMax_14Plus:
+            NSLog(@"TXAdapterPhoneType_iPhone12ProMax_13ProMax_14Plus");
+            break;
+        case TXAdapterPhoneType_iPhone14Pro:
+            NSLog(@"TXAdapterPhoneType_iPhone14Pro");
+            break;
+        case TXAdapterPhoneType_iPhone14ProMax:
+            NSLog(@"TXAdapterPhoneType_iPhone14ProMax");
             break;
         case TXAdapterPhoneTypeOther:
             NSLog(@"Other");

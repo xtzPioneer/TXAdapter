@@ -8,10 +8,10 @@
 
 Pod::Spec.new do |s|
   s.name             = 'TXAdapter'
-  s.version          = '0.1.3'
-  s.summary          = 'iOS轻量级屏幕以及字体适配，支持iPhoneX、XS、XSMax、XR、11、SE、12mini、12、12Pro、12ProMax、13、13Pro、13ProMax、13mini、SE2等机型适配。'
+  s.version          = '0.1.4'
+  s.summary          = 'iOS轻量级屏幕以及字体适配，支持iPhoneX、XS、XSMax、XR、11、SE、12mini、12、12Pro、12ProMax、13、13Pro、13ProMax、13mini、SE2、SE3、14、14Plus、14Pro、14ProMax等机型适配。'
   s.description      = <<-DESC
-  iOS轻量级屏幕以及字体适配，支持iPhoneX、XS、XSMax、XR、11、SE、12mini、12、12Pro、12ProMax、13、13Pro、13ProMax、13mini、SE2等机型适配。
+  iOS轻量级屏幕以及字体适配，支持iPhoneX、XS、XSMax、XR、11、SE、12mini、12、12Pro、12ProMax、13、13Pro、13ProMax、13mini、SE2、SE3、14、14Plus、14Pro、14ProMax等机型适配。
   使用方便、操作简单、集成快捷等优点。
                        DESC
   s.homepage         = 'https://github.com/xtzPioneer/TXAdapter'
